@@ -11,7 +11,7 @@ const initialState = {
   addingSmurf: false
 }
 
-export const smurfReducer = (state = initialState, action) => {
+const smurfReducer = (state = initialState, action) => {
   switch(action.type) {
     case FETCH_SMURF_START:
       return {
@@ -32,8 +32,12 @@ export const smurfReducer = (state = initialState, action) => {
           error: action.payload,
           fetchingSmurfs: false
       }
+    default:
+     return state;
   }
 }
+
+export default smurfReducer;
 
 //add smurf function later
 
