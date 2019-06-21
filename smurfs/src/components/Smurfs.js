@@ -13,7 +13,7 @@ class Smurfs extends React.Component {
     return (
       <div>
 
-        <h1>Smurf Village</h1>
+        <h1 className="village">Smurf Village</h1>
         {this.props.fetchingSmurfs && ( 
             <Loader type="Puff" color="#204963" height="60" width="60" />
         )}
