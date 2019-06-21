@@ -1,5 +1,5 @@
 import React from 'react';
-//import { Card, CardTitle, CardText } from 'reactstrap';
+// import { Card, CardTitle, CardText } from 'reactstrap';
 
 const SmurfList = props => {
   return (

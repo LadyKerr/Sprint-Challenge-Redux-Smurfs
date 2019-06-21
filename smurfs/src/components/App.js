@@ -11,9 +11,7 @@ function App () {
           <ul>
             <li>
               <Link to="/">Smurf Village</Link>
-            </li>
-          </ul>
-          <ul>
+            </li> 
             <li>
               <Link to="/addsmurf">Add Form</Link>
             </li>
